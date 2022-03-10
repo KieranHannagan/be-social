@@ -6,16 +6,11 @@ const userController = {
     // get all users
     getAllUsers(req, res) {
         User.find({})
-            .populate({
-                path: 'users',
-                select: '-__v'
-            })
-            .select('-__v')
-            .sort({ _id: -1 })
+            .select("-__v")
             .then(dbUserData => res.json(dbUserData))
             .catch(err => {
                 console.log(err);
-                res.sendStatus(400);
+                res.status(500).json(err);
             });
     },
 
