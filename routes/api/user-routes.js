@@ -15,7 +15,7 @@ router
   .get(getAllUsers)
   .post(createUser);
 
-// api/Users/:id
+// api/users/:userId
 router
   .route('/:userId')
   .get(getUserById)
@@ -24,7 +24,7 @@ router
 
 // api/users/:userId/friends/:friendId
 router
-  .route(':userId/friends/:friendId')
+  .route('/:userId/friends/:friendId')
   .post(addFriend)
   .delete(deleteFriend);
 

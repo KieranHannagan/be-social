@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/KieranHannagan/be-social#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "mongoose": "^5.9.7"
-
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.15"
   }
 }
