@@ -42,9 +42,9 @@ List of localhost endpoints:
 
 
 
-Watch the [video](https://www.youtube.com/watch?v=YYb9-nQnW9I) below for reference:
+Watch the [video](https://drive.google.com/file/d/1xiTvgLaC7fIOWh8-fuUTRieRrIVMoYm2/view) below for reference:
 
-[![insomnia](public/img/insomnia.png)](https://www.youtube.com/watch?v=YYb9-nQnW9I)
+[![insomnia](public/img/insomnia.png)](https://drive.google.com/file/d/1xiTvgLaC7fIOWh8-fuUTRieRrIVMoYm2/view)
 
 
 
